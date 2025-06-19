@@ -30,7 +30,7 @@ This tool finds hidden orders across all USDC trading pairs and cancels them, in
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/mexc-usdc-unfreezer.git
+git clone https://github.com/honzastim/mexc-usdc-unfreezer.git
 cd mexc-usdc-unfreezer
 ```
 
